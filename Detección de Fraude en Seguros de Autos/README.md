@@ -1,7 +1,7 @@
 
 Detección de Fraude en Seguros de Autos: Optimización de la Siniestralidad.
 
-Sistema de clasificación predictiva diseñado para actuar como primera línea de defensa en la detección de reclamos fraudulentos o irregulares en el sector asegurador.}
+Sistema de clasificación predictiva diseñado para actuar como primera línea de defensa en la detección de reclamos fraudulentos o irregulares en el sector asegurador.
 
 Objetivo del proyecto: Automatizar la detección de anomalías para proteger el capital de la compañía y optimizar los recursos operativos, permitiendo que los auditores se enfoquen en los casos de mayor riesgo.
 
