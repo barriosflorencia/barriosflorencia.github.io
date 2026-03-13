@@ -1,14 +1,14 @@
 
-BankShield: Detección de Phishing Bancario con Deep Learning
+Detección de Fraude en Seguros de Autos: Optimización de la Siniestralidad.
 
-Sistema de filtrado inteligente en tiempo real que utiliza el análisis semántico para bloquear ataques de Smishing bancario antes de que lleguen al usuario.
+Sistema de clasificación predictiva diseñado para actuar como primera línea de defensa en la detección de reclamos fraudulentos o irregulares en el sector asegurador.}
 
-Objetivo del proyecto: Desarrollar un modelo capaz de entender el contexto y la intención detrás de los mensajes, superando las limitaciones de los filtros tradicionales basados solo en reglas rígidas o palabras clave.
+Objetivo del proyecto: Automatizar la detección de anomalías para proteger el capital de la compañía y optimizar los recursos operativos, permitiendo que los auditores se enfoquen en los casos de mayor riesgo.
 
-Incluye el proceso de tokenización preservando señales críticas, la arquitectura de la red neuronal y una demo de predicción con mensajes reales.
+El proyecto detalla el análisis bivariado de patrones de fraude, la experimentación con diversos modelos y la optimización final del clasificador.
 
-Dataset utilizado: Dataset SMS Spam Collection (5,572 mensajes), procesado para mantener señales de urgencia, puntuación y errores gramaticales críticos para la detección de phishing.
+Dataset utilizado: Dataset "Fraud Oracle", compuesto por 15.420 registros y 33 variables que cubren el perfil del asegurado, detalles del vehículo y contexto del siniestro.
 
-Tecnologías utilizadas: Deep Learning con arquitectura de Transformers (DistilBERT), Transfer Learning, Fine-Tuning especializado y mecanismos de atención para el análisis semántico.
+Tecnologías utilizadas: CatBoost (modelo ganador por su manejo eficiente de variables categóricas), Regresión Logística, Random Forest, XGBoost y optimización de sensibilidad (Recall) con Optuna.
 
-Resultados principales: * Accuracy: 0.99 .F1-Score: 0.96. Desempeño en testeo: Sobre 131 ataques, el modelo solo omitió 6 (sensibilidad del 95%), y únicamente generó 4 falsos positivos entre los mensajes legítimos (tasa de error del 0,4%).
+Resultados principales: El modelo logra capturar aproximadamente el 77% de los casos de fraude revisando solo el 30% de las reclamaciones totales. Se determinó que la responsabilidad del asegurado (Fault), el tipo de póliza y el retraso en el reporte (Report_Lag) son los indicadores críticos de fraude.
